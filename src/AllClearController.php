@@ -15,6 +15,7 @@ class AllClearController extends Controller
             Artisan::call('route:clear');
             Artisan::call('clear-compiled');
             Artisan::call('config:clear');
+            return Redirect::back()->with('message', 'All Cache Clear Successful !');
         } catch (\Exception $ex) {
             \Log::error($ex->getMessage());
         }
