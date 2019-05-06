@@ -1,0 +1,35 @@
+{
+    "name": "r_blaster/laravel-all-clear-cache",
+    "description": "You can clear all cached data in single command (all-clear).",
+    "keywords": [
+        "r_blaster",
+        "technobrains",
+        "laravel",
+        "cache",
+        "all-clear-cache",
+        "cached-data",
+        "all-clear"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rachit Patel",
+            "email": "raj4rachit@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "R_blaster\\Allclear\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "R_blaster\\Allclear\\AllClearServiceProvider"
+            ]
+        }
+    }
+}
