@@ -9,7 +9,7 @@ This package helps you to clear all cached data in single command.
 You can install the package via composer:
 
 ```bash
-composer require r_blaster/all-clear-cached-data
+composer require r_blaster/laravel-all-clear-cache
 ```
 
 ### Usage
